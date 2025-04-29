@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Version JavaScript cible
+    "module": "ES6",
+    "moduleResolution": "node",
+
+    // Système de module
+
+    "outDir": "./public", // Où sera généré le JavaScript
+    "rootDir": "./src", // Où sont les fichiers source
+    "strict": true // Activer toutes les vérifications strictes
+
+    // "allowImportingTsExtensions": true,
+  },
+  "include": ["src"], // Dossier à compiler
+  "exclude": ["node_modules", "**/*.test.ts"] // Dossier à ignorer
+}
